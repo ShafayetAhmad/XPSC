@@ -24,6 +24,7 @@ int main()
             int num;
             cin >> num;
             mp[num]++;
+            //
         }
         priority_queue<pair<int, int>> pq;
         for (auto [x, y] : mp)
